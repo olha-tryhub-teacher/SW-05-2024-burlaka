@@ -1,0 +1,195 @@
+body {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-image: linear-gradient(#33312F,#E0AE6C);
+    margin: 0;
+    font-size: 25px;
+}
+.header-img{
+    background-color: #33312F;
+    width: 100%;
+    height: 400px;
+}
+
+.logo{
+    object-fit: cover;
+    width: 180PX;
+    height: 230px;
+    border-radius: 20%;
+    border: 5px solid #F9ED9D;
+}
+
+
+.header-container{
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-h{
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30px;
+    /* font-family: "Pacifico", cursive; */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+
+.navigation{
+    height: 80px;
+    background-color: #E0AE6C;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    margin: auto 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+h2,h3{
+    color: #FBF096;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 100px;
+}
+
+.facultet{
+    height: 300px;
+    width: 30%;
+    border-radius: 33px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.facultet div{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,  black, rgb(0, 0, 0, 0));
+    text-align: center;
+    color:white;
+}
+
+.facultet div p{
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+.facultet div a{
+    position: relative;
+    top: 190px;
+    text-decoration: none;
+    color: black;
+    background-color: #E0AE6C;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#facultet-ecologiya{
+    background-image: url(https://www.environmentalscience.org/wp-content/uploads/2018/02/Ecology-300x300.jpg);
+}
+#facultet-math{
+    background-image: url(https://media.newyorker.com/photos/60343adfb677c26f5b37857c/1:1/w_1707,h_1707,c_limit/Wilkinson-Math.jpg);
+}
+#facultet-art{
+    background-image: url(https://storage.googleapis.com/pod_public/1300/178881.jpg);
+}
+#facultet-inf{
+    background-image: url(https://i0.wp.com/thesociologyguy.com/wp-content/uploads/2022/08/depositphotos_62334807-stock-illustration-business-elite-community.webp?fit=600%2C600&ssl=1);
+}
+#facultet-lang{
+    background-image: url(https://www.aljazeera.com/wp-content/uploads/2022/01/My-fathers-handwriting-1-Richard-Smith.jpeg?resize=1800%2C1800);
+}
+#facultet-bio{
+    background-image: url(https://www.xpress-biologics.com/sites/default/files/styles/illustration/public/platforms/images/molecular_biology.jpg?itok=ZQKCQKJc);
+}
+
+.facultety{
+    padding: 1%;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.teachers{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.teacher{
+    width: 19%;
+    align-items: center;
+    text-align: center;
+}
+
+.teacher img{
+    border: 5px solid #E0AE6C;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;   
+}
+
+
+
+/* article{
+    border: 3px solid #E0AE6C;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(33312F,E0AE6C);
+    box-shadow: 2px 2px 8px black;
+} */
+
+.faculty{
+    display: flex;
+    flex-direction: row;
+    font-size:20px;
+    justify-content: space-around;
+}
+.foto{
+    margin-right: 190px;
+    max-width: 190px;
+}
+
+footer{
+    background: #33312F;
+  display: flex;
+justify-content: space-around;
+padding: 10px;
+
+}
+footer img{
+    object-fit: cover;
+    width:250px ;
+    height:250px ;
+    border: 3px solid #F9ED9D ;
+    border-radius: 25%;
+}
+.about-us-section img{
+height: 400px;
+width: auto;
+}
+.about-us-section{
+    color: white;
+    background-image: radial-gradient(circle at center center, transparent 0%,rgb(51,49,47) 85%),linear-gradient(78deg, rgba(192, 192, 192,0.05) 0%, rgba(192, 192, 192,0.05) 50%,rgba(60, 60, 60,0.05) 50%, rgba(60, 60, 60,0.05) 100%),linear-gradient(227deg, rgba(97, 97, 97,0.05) 0%, rgba(97, 97, 97,0.05) 50%,rgba(52, 52, 52,0.05) 50%, rgba(52, 52, 52,0.05) 100%),linear-gradient(240deg, rgba(98, 98, 98,0.05) 0%, rgba(98, 98, 98,0.05) 50%,rgba(249, 249, 249,0.05) 50%, rgba(249, 249, 249,0.05) 100%),linear-gradient(187deg, rgba(1, 1, 1,0.05) 0%, rgba(1, 1, 1,0.05) 50%,rgba(202, 202, 202,0.05) 50%, rgba(202, 202, 202,0.05) 100%),linear-gradient(101deg, rgba(61, 61, 61,0.05) 0%, rgba(61, 61, 61,0.05) 50%,rgba(254, 254, 254,0.05) 50%, rgba(254, 254, 254,0.05) 100%),linear-gradient(176deg, rgba(237, 237, 237,0.05) 0%, rgba(237, 237, 237,0.05) 50%,rgba(147, 147, 147,0.05) 50%, rgba(147, 147, 147,0.05) 100%),linear-gradient(304deg, rgba(183, 183, 183,0.05) 0%, rgba(183, 183, 183,0.05) 50%,rgba(57, 57, 57,0.05) 50%, rgba(57, 57, 57,0.05) 100%),radial-gradient(circle at center center, rgb(129,88,40),rgb(129,88,40));
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
